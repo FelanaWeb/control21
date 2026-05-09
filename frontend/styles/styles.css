@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/roboto_medium.ttf");
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/roboto_regular.ttf");
+}
+
+.roboto14 {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 14px;
+}
+
+.main-text {
+    color: #052C65;
+}
+
+.dashboard-menu {
+    font-family: "Roboto Regular", sans-serif;
+    color: #052C65;
+}
+
+.dashboard-menu label, .dashboard-menu a {
+    font-size: 14px;
+}
+
+.dashboard-balance {
+    font-family: "Roboto Medium", sans-serif;
+    color: #052C65;
+    font-size: 14px;
+}
+
+.dashboard-balance span {
+    color: #0D6EFD;
+}
+
+.dashboard-user {
+    font-family: "Roboto Regular", sans-serif;
+    color: #052C65;
+    font-size: 14px;
+}
+
+.header-title {
+    font-family: "Roboto Medium", sans-serif;
+    color: #052C65;
+}
+
+.header-nav {
+    font-family: "Roboto Medium", sans-serif;
+}
+
+.header-nav li {
+    width: 100px;
+}
+
+.login-title {
+    font-family: "Roboto Medium", sans-serif;
+    color: #052C65;
+}
+
+.item-title {
+    font-family: "Roboto Medium", sans-serif;
+    color: #290661;
+}
+
+.item-border {
+    border-color: #CED4DA;
+}
+
+.gray-color {
+    color: #CED4DA;
+}
+
+.font-little {
+    font-size: 14px;
+}
+
+.income-item {
+    width: 352px;
+    height: 121px;
+}
+
+.input-placeholder {
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
+    color: #6C757D;
+}
+
+.input-color::placeholder {
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
+    color: #6C757D;
+}
+
+
+.roboto12 {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+}
+

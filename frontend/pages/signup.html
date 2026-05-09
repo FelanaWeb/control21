@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="../styles/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body class="d-flex justify-content-center align-items-center vh-100">
+
+  <div class="content d-flex align-items-center text-center flex-column">
+    <div class="d-flex align-items-center text-center flex-column">
+
+      <div class="login-logo text-center mb-2 pb-1">
+        <a href="javascript:void(0)"><img src="../images/logo.svg" alt="Логотип"></a>
+      </div>
+      <div class="login-title pt-5 text-center fs-1 mb-2">Создайте аккаунт</div>
+      <div class="login-block pt-1 w-100">
+        <div class="card-body login-card-body">
+          <div id="common-error" class="error invalid-feedback text-center mb-3">Неправильный email или пароль
+          </div>
+          <form>
+
+            <div class="login-input input-group mb-2">
+              <span class="input-group-text"><img src="../images/person.svg" alt="User"></span>
+              <input type="text" class="form-control text-secondary" placeholder="Имя" id="name">
+              <span id="name-error" class="error invalid-feedback">Введите имя</span>
+            </div>
+
+            <div class="login-input input-group mb-2">
+              <span class="input-group-text"><img src="../images/person.svg" alt="User"></span>
+              <input type="text" class="form-control text-secondary" placeholder="Фамилия" id="lastName">
+              <span id="lastName-error" class="error invalid-feedback">Введите фамилию</span>
+            </div>
+
+            <div class="login-input input-group mb-2">
+              <span class="input-group-text"><img src="../images/letter.svg" alt="Letter"></span>
+              <input type="email" class="form-control text-secondary" placeholder="Электронная почта" id="email">
+              <span id="email-error" class="error invalid-feedback">Введите корректный E-mail</span>
+            </div>
+
+            <div class="login-input input-group mb-2">
+              <span class="input-group-text"><img src="../images/lock.svg" alt="Lock"></span>
+              <input type="password" class="form-control text-secondary" placeholder="Пароль" id="password">
+              <span id="password-error" class="error invalid-feedback">Заполните пароль</span>
+            </div>
+            <div class="login-input input-group mb-2">
+              <span class="input-group-text"><img src="../images/lock.svg" alt="Lock"></span>
+              <input type="password" class="form-control text-secondary" placeholder="Подтверждение пароля"
+                id="repeatPassword">
+              <span id="repeatPassword-error" class="error invalid-feedback">Повторите пароль</span>
+            </div>
+
+            <div class="row mb-3">
+              <div class="login-button">
+                <div class="col-12">
+                  <button type="button" class="btn btn-primary btn-block w-100" id="process-button">Войти</button>
+                </div>
+              </div>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+
+      <div class="roboto12 login-account social-auth-links mb-3">
+        <p>
+          <span>Уже есть аккаунт?</span>
+          <a href="http://127.0.0.1:5500/frontend/pages/login.html">
+            Войдите в систему
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
