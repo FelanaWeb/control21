@@ -1,0 +1,50 @@
+<!-- Главная -->
+<div class="w-100 pt-1">
+  <div class="ms-5 mt-3 ps-3 pt-5 pe-5 pb-4">
+    <div class="header-title mt-3 pt-3 pb-5 fs-1">Главная</div>
+    <header class="header mt-1 pt-2">
+      <nav class="header-nav d-flex align-items-baseline gap-3">
+        <ul class="d-flex list-unstyled gap-3">
+          <li>
+            <button type="button" class="w-100 btn btn-secondary">Сегодня</button>
+          </li>
+          <li>
+            <button type="button" class="w-100 btn btn-outline-secondary">Неделя</button>
+          </li>
+          <li>
+            <button type="button" class="w-100 btn btn-outline-secondary">Месяц</button>
+          </li>
+          <li>
+            <button type="button" class="w-100 btn btn-outline-secondary">Год</button>
+          </li>
+          <li>
+            <button type="button" class="w-100 btn btn-outline-secondary">Все</button>
+          </li>
+          <li>
+            <button type="button" class="w-100 btn btn-outline-secondary">Интервал</button>
+          </li>
+
+        </ul>
+        <span>с</span>
+        <span> <a class="link-dark" href="#">Дата</a> </span>
+        <span>по</span>
+        <span> <a class="link-dark" href="#">Дата</a> </span>
+      </nav>
+    </header>
+    <main class="mt-5 pt-5">
+      <div class="d-flex">
+        <!-- Доходы -->
+        <div class="pe-5">
+          <!-- 1. Создаем элемент <canvas>, в котором будет отрисован график -->
+          <canvas id="income" width="460" height="460"></canvas>
+        </div>
+
+        <!-- Расходы -->
+        <div class="ps-5 border-start">
+          <!-- 1. Создаем элемент <canvas>, в котором будет отрисован график -->
+          <canvas id="expenses" width="460" height="460"></canvas>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>

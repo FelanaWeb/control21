@@ -1,0 +1,25 @@
+{
+  "name": "control21_auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./dist",
+    "build": "webpack",
+    "dev": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "html-webpack-plugin": "^5.6.4",
+    "http-server": "^14.1.1",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

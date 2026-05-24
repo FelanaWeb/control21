@@ -1,0 +1,108 @@
+<!-- Список расходов -->
+<div class="w-100 pt-1 pb-5">
+  <div class="ms-5 mt-3 ps-3 pt-5 pe-5 pb-4">
+    <div class="header-title mt-3 pt-3 pb-5 fs-1">Расходы</div>
+    <main class="d-flex align-items-baseline gap-3">
+      <ul class="d-flex list-unstyled gap-3 flex-wrap">
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+          _mstvisible="0" style="display: none;">
+          <div class="modal-dialog modal-dialog-centered" _mstvisible="1">
+            <div class="modal-content p-1" _mstvisible="2">
+              <div class="modal-body text-center p-4" _mstvisible="3">
+                <p class="item-title fs-5 lh-1" _msttexthash="11284962" _msthash="267" _mstvisible="4">Вы
+                  действительно хотите удалить категорию? </p>
+                <button type="button" class="btn btn-success">Да, удалить</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                  Не удалять
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Еда</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Жильё</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Здоровье</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Кафе</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Авто</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Одежда</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Развлечения</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Счета</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Спорт</div>
+          <a href="/#/expenses_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+
+        <!-- Добавить расход -->
+        <li role="button"
+          class="income-item d-flex align-items-center justify-content-evenly border item-border rounded-3 p-3">
+          <a href="/#/expenses_create"
+            class="text-decoration-none w-100 text-center">
+            <div class="item-title gray-color fs-3">+</div>
+          </a>
+        </li>
+      </ul>
+    </main>
+  </div>
+</div>

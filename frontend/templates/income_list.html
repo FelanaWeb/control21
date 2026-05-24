@@ -1,0 +1,64 @@
+<!-- Список доходов -->
+<div class="w-100 pt-1 pb-5">
+  <div class="ms-5 mt-3 ps-3 pt-5 pe-5 pb-4">
+    <div class="header-title mt-3 pt-3 pb-5 fs-1">Доходы</div>
+    <main class="d-flex align-items-baseline gap-3">
+      <ul class="d-flex list-unstyled gap-3 flex-wrap">
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-1">
+              <div class="modal-body text-center p-4">
+                <p class="item-title fs-5 lh-1">Вы
+                  действительно хотите удалить категорию? Связанные доходы останутся без категории.</p>
+                <button type="button" class="btn btn-success">Да, удалить</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Не удалять</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Депозиты</div>
+          <a href="/#/income_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Зарплата</div>
+          <a href="/#/income_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Сбережения</div>
+          <a href="/#/income_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <li class="income-item border item-border rounded-3 p-3">
+          <div class="item-title fs-3 pb-1">Инвестиции</div>
+          <a href="/#/income_edit">
+            <button type="button" class="btn btn-primary me-2 font-little">Редактировать</button>
+          </a>
+          <button type="button" class="btn btn-danger font-little" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Удалить</button>
+        </li>
+        <!-- Добавить доход -->
+        <li role="button"
+          class="income-item d-flex align-items-center justify-content-evenly border item-border rounded-3 p-3">
+          <a href="/#/income_create"
+            class="text-decoration-none w-100 text-center">
+            <div class="item-title gray-color fs-3">+</div>
+          </a>
+        </li>
+      </ul>
+    </main>
+  </div>
+</div>

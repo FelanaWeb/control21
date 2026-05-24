@@ -1,0 +1,107 @@
+s<!-- Доходы и расходы -->
+<div class="w-100 pt-1 pb-5">
+	<div class="ms-5 mt-3 ps-3 pt-5 pe-5 pb-4">
+		<div class="header-title mt-3 pt-3 pb-4 fs-1">Доходы и расходы</div>
+		<div>
+			<a href="/#/income_create">
+				<button type="button" class="btn btn-success me-2 font-little w-auto">Создать доход</button>
+			</a>
+			<a href="/#/expenses_create">
+				<button type="button" class="btn btn-danger font-little">Создать расход</button>
+			</a>
+		</div>
+		<header class="header mt-3 pt-3">
+			<nav class="header-nav d-flex align-items-baseline gap-3">
+				<ul class="d-flex list-unstyled gap-3">
+					<li>
+						<button type="button" class="w-100 btn btn-secondary">Сегодня</button>
+					</li>
+					<li>
+						<button type="button" class="w-100 btn btn-outline-secondary">Неделя</button>
+					</li>
+					<li>
+						<button type="button" class="w-100 btn btn-outline-secondary">Месяц</button>
+					</li>
+					<li>
+						<button type="button" class="w-100 btn btn-outline-secondary">Год</button>
+					</li>
+					<li>
+						<button type="button" class="w-100 btn btn-outline-secondary">Все</button>
+					</li>
+					<li>
+						<button type="button" class="w-100 btn btn-outline-secondary">Интервал</button>
+					</li>
+
+				</ul>
+				<span>с</span>
+				<span> <a class="link-dark text-secondary" href="#">Дата</a> </span>
+				<span>по</span>
+				<span> <a class="link-dark text-secondary" href="#">Дата</a> </span>
+			</nav>
+		</header>
+		<main class="pt-1">
+			<table class="table table-sm">
+				<thead class="table-bordered">
+					<tr>
+						<th class="text-center" scope="col">№ операции</th>
+						<th class="text-center" scope="col">Тип</th>
+						<th class="text-center" scope="col">Категория</th>
+						<th class="text-center" scope="col">Сумма</th>
+						<th class="text-center" scope="col">Дата</th>
+						<th class="text-center" scope="col">Комментарий</th>
+						<th class="text-center" scope="col"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th class="text-center" scope="row">1</th>
+						<td class="text-center text-success header-nav">доход</td>
+						<td class="text-center">зарплата</td>
+						<td class="text-center">500$</td>
+						<td class="text-center">11.09.2022</td>
+						<td class="text-center"></td>
+						<td class="text-center">
+							<span role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+								<img src="../images/basket.svg" alt="Удалить" title="Удалить">
+							</span>
+							<a href="/#/income_edit">
+								<img src="../images/pen.svg" alt="Редактировать" title="Редактировать">
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<th class="text-center" scope="row">2</th>
+						<td class="text-center text-danger header-nav">расход</td>
+						<td class="text-center">жильё</td>
+						<td class="text-center">2 500$</td>
+						<td class="text-center">12.09.2022</td>
+						<td class="text-center"></td>
+						<td class="text-center">
+							<span role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+								<img src="../images/basket.svg" alt="Удалить" title="Удалить">
+							</span>
+							<a href="/#/expenses_edit">
+								<img src="../images/pen.svg" alt="Редактировать" title="Редактировать">
+							</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalCenterTitle" _mstvisible="0"
+				style="display: none;">
+				<div class="modal-dialog modal-dialog-centered" _mstvisible="1">
+					<div class="modal-content p-1" _mstvisible="2">
+						<div class="modal-body text-center p-4" _mstvisible="3">
+							<p class="item-title fs-5 lh-1" _msttexthash="11284962" _msthash="267" _mstvisible="4">Вы
+								действительно хотите удалить операцию?</p>
+							<button type="button" class="btn btn-success">Да, удалить</button>
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+								Не удалять
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</div>
